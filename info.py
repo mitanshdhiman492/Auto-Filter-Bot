@@ -116,7 +116,7 @@ SHORTLINK = is_enabled('SHORTLINK', False)
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://telegra.ph/file/e1d10fb7d6a3c211f3fb9.jpg') #telegraph link of your QR code 
 UPI_ID = environ.get('UPI_ID', 'mitanshdhiman0001@okicici') # Add your upi id here
 
-IS_STREAM = is_enabled('IS_STREAM', false) #true if you want stream feature active in your bot
+IS_STREAM = is_enabled('IS_STREAM', False) #true if you want stream feature active in your bot
 print(f"IS_STREAM is set to: {IS_STREAM}")
 BIN_CHANNEL = environ.get("BIN_CHANNEL", "") #if is_stream = true then add a channel id ex: -10026393639
 if len(BIN_CHANNEL) == 0:
