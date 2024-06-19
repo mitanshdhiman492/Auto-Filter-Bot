@@ -120,7 +120,7 @@ UPI_ID = environ.get('UPI_ID', 'mitanshdhiman0001@okicici') # Add your upi id he
 IS_STREAM = is_enabled('IS_STREAM', False)  # True if you want stream feature active in your bot
 
 if IS_STREAM:
-    BIN_CHANNEL = environ.get("BIN_CHANNEL", "")  # If IS_STREAM is true then add a channel id ex: -10026393639
+    BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1001602859617")  # If IS_STREAM is true then add a channel id ex: -10026393639
     if len(BIN_CHANNEL) == 0:
         print('Error - BIN_CHANNEL is missing, exiting now')
         exit()
