@@ -79,8 +79,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/MrLatestMoviesbot')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Theprofffesorr')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+3w9JlpDFFJ85MmI9')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToDownloadOurSite/8")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HowToDownloadOurSite/8")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
