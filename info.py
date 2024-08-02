@@ -79,8 +79,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/MrLatestMoviesbot')
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Theprofffesorr')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+3w9JlpDFFJ85MmI9')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToDownloadOurSite/8")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HowToDownloadOurSite/8")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToDownloadOurSite/9")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/HowToDownloadOurSite/9")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
@@ -91,7 +91,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "droplink.co")
 SHORTLINK_API = environ.get("SHORTLINK_API", "e3db093b5ee80c49597b6a30160a541d8e33b1dc")
-VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 18000)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
 STICKERS_IDS = (
@@ -110,7 +110,7 @@ LINK_MODE = is_enabled("LINK_MODE", True)
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IMDB = is_enabled('IMDB', True)
 SPELL_CHECK = is_enabled("SPELL_CHECK", True)
-SHORTLINK = is_enabled('SHORTLINK', True)
+SHORTLINK = is_enabled('SHORTLINK', False)
 
 
 PAYMENT_QR = environ.get('PAYMENT_QR', 'https://telegra.ph/file/e1d10fb7d6a3c211f3fb9.jpg') #telegraph link of your QR code 
